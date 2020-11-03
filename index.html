@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-a-Sketch</title>
+    <link rel="stylesheet" href="/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Grandstander&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+</head>
+<body>
+    <header id="header">
+        <h1 id="h1-title">Welcome to <span class="title-color">Etch</span>-<span class="title-color">a</span>-<span class="title-color">Sketch</span> Pad!</h1>
+    </header>
+
+    <!-- Container where our grid system will sit -->
+    <div class="container"></div>
+    
+    <!-- Flex container for buttons -->
+    <div class="flex-btns">
+        <!-- buttons -->
+        <button class="btn" id="clear-button">Clear Pad</button>
+        <button class="btn" id="resize-grid">Resize Grid</button>
+        <button class="btn" id="random-colors">Random Colors</button>
+        <button class="btn" id="black-color">Black</button>
+        <button class="btn" id="shade">Shade</button>
+        <!-- <button class="btn" id="">Select a color</button> -->
+        <div class="custom-color">
+            <p id="text-custom-color">Custom Color Below:</p>
+            <input type="color" id="select-custom-color">
+        </div>
+    </div>
+    
+    <!-- Footer -->
+    <footer id="footer">
+        <p id="footer-text">Created by Asad Jawaid</p>
+        <div class="icons">
+            <a href="https://github.com/asadjawaid" class="fa fa-github" target="_blank"></a>
+            <a href="https://www.linkedin.com/in/asadjawaid-/" class="fa fa-linkedin" target="_blank"></a>
+        </div>
+        
+    </footer>
+    <script src="/app.js"></script>
+</body>
+</html>
